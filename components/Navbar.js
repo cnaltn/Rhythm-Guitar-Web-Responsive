@@ -61,7 +61,7 @@ const Navbar = () => {
           </NavLogo>
           <NavList className="">
             <a className="hidden md:flex" href="#">
-              StNavlogoore
+              Store
             </a>
             <a className="hidden md:flex" href="#">
               Collections
