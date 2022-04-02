@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
-import Navlogo from "../images/sms.svg";
+import Navlogo from "../images/butter.svg";
 
 const NavSection = styled.div`
   display: flex;
