@@ -17,10 +17,10 @@ const Footer = () => {
             <h1 className="font-semibold text-[40px]">Rhythm</h1>
           </div>
           <div className="gap-y-5 flex flex-col pt-7">
-            <p className="flex items-center gap-x-5 hidden md:flex">
+            <p className=" items-center gap-x-5 hidden md:flex">
               <Image src={sms}></Image>example@example.com
             </p>
-            <p className="flex items-center gap-x-5 hidden md:flex">
+            <p className=" items-center gap-x-5 hidden md:flex">
               <Image src={gps}></Image>Turkey
             </p>
           </div>
