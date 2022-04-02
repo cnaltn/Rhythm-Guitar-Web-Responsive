@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLogo, navlogo, Img } from "./Navbar";
 import Image from "next/image";
-import footerlogo from "../images/butterfly.svg";
+import footerlogo from "../images/butterfly.png";
 import sms from "../images/sms.svg";
 import gps from "../images/location.svg";
 import { GrFacebookOption, GrTwitter, GrInstagram } from "react-icons/gr";
