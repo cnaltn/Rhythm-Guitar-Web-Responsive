@@ -79,4 +79,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
-export { Left, NavLogo, navlogo, Img };
+export { Left, NavLogo, Navlogo, Img };
