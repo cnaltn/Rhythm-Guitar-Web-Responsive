@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
-import Navlogo from "../images/butterfly.svg";
-import mainGuitar from "../images/guitar.png";
+import Navlogo from "../images/sms.svg";
 
 const NavSection = styled.div`
   display: flex;
