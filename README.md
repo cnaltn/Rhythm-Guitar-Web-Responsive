@@ -5,4 +5,4 @@ I took this design from Figma, thanks for @Mohittdesigns. I codded this design w
 Cheers, 
 Can Altun.
 
-Demo web site: canguitar.netlify.app
+Demo web site: www.canguitar.netlify.app
