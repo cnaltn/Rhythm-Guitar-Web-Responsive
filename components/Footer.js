@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Footerlogo from "../images/sms.svg";
+import Footerlogo from "../images/butter.svg";
 import Sms from "../images/sms.svg";
 import Gps from "../images/location.svg";
 import { GrFacebookOption, GrTwitter, GrInstagram } from "react-icons/gr";
