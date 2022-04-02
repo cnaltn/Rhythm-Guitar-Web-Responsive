@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
-import navlogo from "../images/butterfly.svg";
+import Navlogo from "../images/butterfly.svg";
 import mainGuitar from "../images/guitar.png";
 
 const NavSection = styled.div`
@@ -57,12 +57,12 @@ const Navbar = () => {
       <NavSection>
         <Left>
           <NavLogo>
-            <Img layout="fixed" src={navlogo}></Img>
+            <Img layout="fixed" src={Navlogo}></Img>
             <h1>Rhythm</h1>
           </NavLogo>
           <NavList className="">
             <a className="hidden md:flex" href="#">
-              Store
+              StNavlogoore
             </a>
             <a className="hidden md:flex" href="#">
               Collections

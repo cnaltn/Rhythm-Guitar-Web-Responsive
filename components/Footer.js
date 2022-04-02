@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLogo, navlogo, Img } from "./Navbar";
 import Image from "next/image";
-import footerlogo from "../images/butterfly.png";
-import sms from "../images/sms.svg";
-import gps from "../images/location.svg";
+import Footerlogo from "../images/butterfly.png";
+import Sms from "../images/sms.svg";
+import Gps from "../images/location.svg";
 import { GrFacebookOption, GrTwitter, GrInstagram } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa";
 
@@ -13,15 +13,15 @@ const Footer = () => {
       <cont className="container mx-auto w-full flex md:justify-between">
         <logosection className="">
           <div className="hidden md:flex gap-x-6 items-center ">
-            <Image className="" layout="fixed" src={footerlogo}></Image>
+            <Image className="" layout="fixed" src={Footerlogo}></Image>
             <h1 className="font-semibold text-[40px]">Rhythm</h1>
           </div>
           <div className="gap-y-5 flex flex-col pt-7">
             <p className=" items-center gap-x-5 hidden md:flex">
-              <Image src={sms}></Image>example@example.com
+              <Image src={Sms}></Image>example@example.com
             </p>
             <p className=" items-center gap-x-5 hidden md:flex">
-              <Image src={gps}></Image>Turkey
+              <Image src={Gps}></Image>Turkey
             </p>
           </div>
         </logosection>
