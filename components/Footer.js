@@ -7,7 +7,7 @@ import { GrFacebookOption, GrTwitter, GrInstagram } from "react-icons/gr";
 
 const Footer = () => {
   return (
-    <div className="bg-[#EEEEEE] w-full h-[380px]   pt-20">
+    <div className="bg-[#EEEEEE] w-full h-[380px]   pt-12">
       <cont className="container mx-auto w-full flex md:justify-between">
         <logosection className="">
           <div className="hidden md:flex gap-x-6 items-center ">
@@ -86,7 +86,11 @@ const Footer = () => {
           </div>
         </navsection>
       </cont>
-      <copyright className="container mx-auto grid gap-y-1 md:justify-between text-center md:flex justify-center pt-16">
+      <div className="flex md:hidden items-center gap-x-3 justify-center pt-12 ">
+        <Image className="" width={30} layout="fixed" src={Footerlogo}></Image>
+        <h1 className="font-semibold text-[28px]">Rhythm</h1>
+      </div>
+      <copyright className="container mx-auto grid gap-y-1 md:justify-between text-center md:flex justify-center pt-3 md:pt-24">
         <div>
           <h1>© 2022 Copyright Rhythm</h1>
         </div>

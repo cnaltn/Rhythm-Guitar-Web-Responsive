@@ -66,7 +66,7 @@ const Why = () => {
             <Image className="" src={customer_1}></Image>
           </div>
           <div className="flex flex-col  xl:items-start">
-            <h1 className="text-[24px] text-white mb-14 mt-10 xl:mt-0  ">
+            <h1 className="text-[21px]  md:text-[24px] text-white mb-14 mt-10 xl:mt-0  ">
               “The Quality and Delivery is always on time,<br></br> being a
               professional guitarist myself I love<br></br> the customer service
               the brand provides,<br></br> highly recommend Rhythm anytime.”
@@ -78,15 +78,15 @@ const Why = () => {
           </div>
         </bottom>
       </customer>
-      <appline className="container mx-auto grid md:flex items-center justify-between pt-52">
+      <appline className="container mx-auto grid md:flex items-center justify-between pt-40 ">
         <div className="flex flex-col items-center">
-          <h1 className="text-white text-center sm:text-left font-semibold text-4xl md:text-5xl leading-[140%]">
+          <h1 className="text-white text-center sm:text-left font-semibold text-4xl md:text-5xl">
             Browse and buy your<br></br>
             <span className="text-[#ff6428]">favorite guitars</span> with
             <br></br>
             Rhythm.
           </h1>
-          <socials className="flex mt-16 gap-x-5">
+          <socials className="flex mt-16 gap-x-5 md:mr-auto">
             <a className="" href="#">
               <Image className="" src={app_store}></Image>
             </a>
